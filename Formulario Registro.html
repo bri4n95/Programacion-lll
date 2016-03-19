@@ -17,7 +17,9 @@
           <input type="password" id="password" name="user_password"><br/>
           <label>Edad:</label>
           <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Menor de 18</label>
-          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Mayor de 18</label>
+          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Mayor de 18</label><br/>
+           <label for="fecha">Fecha de nacimiento:</label> 
+  <input type="date" name="bday">
 
      </fieldset>
 <fieldset>
@@ -26,11 +28,22 @@
           <textarea id="bio" name="user_bio"></textarea>
            <label for="celu">Celular:</label>
            <input type="text" id="celu" name="user_celu">
-           <label for="compani">Transporte Propio:</label>
+           <label for="transport">Transporte Propio:</label>
            <input type="checkbox" name="vehiculo" value="moto">Moto
 <input type="checkbox" name="vehiculo" value="auto">Auto 
-<input type="checkbox" name="vehiculo" value="bici">Bici 
+<input type="checkbox" name="vehiculo" value="bici">Bici <br/>
+        <label for="compani">Compania Celular:</label>
+        <select>
+  <option value="movistar">movistar</option>
+  <option value="personal">personal</option>
+  <option value="claro">claro</option>
+  <option value="twenty">twenty</option>
+</select>
+<label for="color">Elige tu color favorito:</label>
+<input type="color" name="favcolor" value="#ff0000">
         </fieldset>
+       <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
        <button type="submit">Sign Up</button>
 </body>
 </html>
